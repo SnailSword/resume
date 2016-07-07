@@ -8,7 +8,8 @@ body {
     font-size: 16px;
     color: #555;
 
-    -webkit-font-smoothing: antialiased;
+
+	-webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -29,6 +30,7 @@ p {
 
 .centered {
     text-align: center;
+
 }
 
 /* Links */
@@ -157,8 +159,9 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
+	overflow: hidden;
+
+	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
@@ -191,9 +194,6 @@ a:after {
 	background-color: #000000;
 }
 
-#canvasContainer div{
-	overflow: hidden;
-}
 
 
 /* Intnro Wrap */
